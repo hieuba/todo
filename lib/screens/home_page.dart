@@ -84,8 +84,11 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.blue.shade100,
       appBar: AppBar(
-        title: const Text('Todo'),
+        backgroundColor: Colors.blue.shade300,
+        elevation: 0,
+        title: const Text('Todo List'),
         actions: [
           IconButton(onPressed: _addNewTask, icon: const Icon(Icons.add))
         ],

@@ -19,7 +19,7 @@ class TodoTile extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.only(bottom: 10),
       decoration: BoxDecoration(
-          color: Colors.blue.shade100, borderRadius: BorderRadius.circular(10)),
+          color: Colors.blue.shade300, borderRadius: BorderRadius.circular(10)),
       child: Padding(
         padding: const EdgeInsets.all(20),
         child: Row(
